@@ -9,7 +9,7 @@ terraform {
 
 variable "aws_region" {
   default     = "sa-east-1"
-  description = "Default region to create the stack (sa-east-1) Sao Paulo/Brazil"
+  description = "Default region to create the stack (sa-east-1) Sao_Paulo/Brazil"
 }
 
 provider "aws" {
@@ -111,7 +111,7 @@ EOF
 
   tags = {
     Terraform   = "True"
-    Application = "Quarkus Java 11"
+    Application = "Quarkus"
   }
 }
 
